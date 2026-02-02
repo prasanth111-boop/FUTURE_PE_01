@@ -1,9 +1,9 @@
 import { Clock, MapPin, Phone } from "lucide-react";
 
 const hours = [
-  { day: "Monday – Friday", time: "7:00 AM – 8:00 PM" },
-  { day: "Saturday", time: "8:00 AM – 9:00 PM" },
-  { day: "Sunday", time: "8:00 AM – 6:00 PM" },
+  { day: "Monday – Friday", time: "7:00 AM – 10:00 PM" },
+  { day: "Saturday", time: "8:00 AM – 11:00 PM" },
+  { day: "Sunday", time: "8:00 AM – 9:00 PM" },
 ];
 
 const Location = () => {
@@ -16,11 +16,11 @@ const Location = () => {
             Visit Us
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground mb-6">
-            Find Us in the{" "}
-            <span className="text-forest-light">Neighborhood</span>
+            Find Us in{" "}
+            <span className="text-forest-light">Hyderabad</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            We're right in the heart of the community. Drop by anytime—good coffee and warm welcomes await.
+            We're right in the heart of the city. Drop by anytime—good coffee and warm welcomes await.
           </p>
         </div>
 
@@ -60,8 +60,8 @@ const Location = () => {
 
               {/* Neighborhood Label */}
               <div className="absolute bottom-6 left-6 bg-card/95 backdrop-blur-sm rounded-lg px-4 py-3 shadow-card">
-                <p className="text-sm font-medium text-foreground">123 Main Street</p>
-                <p className="text-xs text-muted-foreground">Downtown District</p>
+                <p className="text-sm font-medium text-foreground">Road No. 36, Jubilee Hills</p>
+                <p className="text-xs text-muted-foreground">Hyderabad, Telangana</p>
               </div>
             </div>
           </div>
@@ -105,14 +105,23 @@ const Location = () => {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-muted-foreground mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-foreground">123 Main Street</p>
-                    <p className="text-muted-foreground">Downtown District, City 12345</p>
+                    <p className="text-foreground">Plot 42, Road No. 36</p>
+                    <p className="text-foreground">Jubilee Hills</p>
+                    <p className="text-muted-foreground">Hyderabad, Telangana 500033</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-muted-foreground flex-shrink-0" />
-                  <p className="text-foreground">(555) 123-4567</p>
+                  <p className="text-foreground">+91 40 2355 6789</p>
                 </div>
+              </div>
+              
+              {/* Landmarks */}
+              <div className="mt-6 p-4 bg-sage/20 rounded-xl">
+                <p className="text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">Landmark:</span> Near KBR Park entrance, 
+                  opposite to GVK One Mall
+                </p>
               </div>
             </div>
           </div>
