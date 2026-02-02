@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
               Your neighborhood escape for freshly roasted coffee, homemade pastries, 
-              and a welcoming space to work and connect.
+              and a welcoming space to work and connect in the heart of Hyderabad.
             </p>
             {/* Social Links */}
             <div className="flex items-center gap-4">
@@ -68,7 +68,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Order Online
+                  Order on Swiggy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Order on Zomato
                 </a>
               </li>
             </ul>
@@ -80,12 +85,12 @@ const Footer = () => {
               Visit Us
             </h4>
             <address className="not-italic space-y-3 text-muted-foreground">
-              <p>123 Main Street</p>
-              <p>Downtown District</p>
-              <p>City, State 12345</p>
+              <p>Plot 42, Road No. 36</p>
+              <p>Jubilee Hills</p>
+              <p>Hyderabad, Telangana 500033</p>
               <p className="pt-2">
-                <a href="tel:+15551234567" className="hover:text-foreground transition-colors">
-                  (555) 123-4567
+                <a href="tel:+914023556789" className="hover:text-foreground transition-colors">
+                  +91 40 2355 6789
                 </a>
               </p>
             </address>
